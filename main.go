@@ -1,8 +1,9 @@
 /*
 
-    Proxy-Bridge
-
-    Simple proxy bridging using Golang
+    Proxy Bridge is a simple Golang program that acts as a proxy server, 
+    forwarding incoming requests from clients to a target server. The program listens for 
+    incoming connections on a specified port, and then forwards these connections to the 
+    target server using the TCP protocol.
 
     Repo: https://github.com/wildy238/Proxy-Bridge.git
     
