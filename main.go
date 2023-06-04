@@ -1,3 +1,14 @@
+/*
+
+	Proxy-Bridge
+    Simple proxy bridging using Golang
+
+    Repo: https://github.com/wildy238/Proxy-Bridge.git
+    
+    Author: Wildy Sheverando [ Wildy238 ]
+    
+*/
+
 package main
 
 import (
