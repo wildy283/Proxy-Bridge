@@ -55,7 +55,7 @@ func main() {
         // create a func with c net connection to handle proxy
         go func(c net.Conn) {
             // Dial Target in tcp with time out
-            dconn, err := net.DialTimeout("tcp", host+":"+port, 10*time.Second)
+            dconn, err := net.DialTimeout("tcp", host+":"+port, 5*time.Second) // change to 5 seconds
             if err != nil {
                 log.Println(err)
                 return
