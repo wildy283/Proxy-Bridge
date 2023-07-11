@@ -3,7 +3,7 @@ Proxy Bridge is a simple Golang program that acts as a proxy server, forwarding 
 
 ## Installation
 1. Clone the repository:
-  - git clone https://github.com/wildy283/proxy-bridge.git
+  - git clone https://github.com/wildy281/proxy-bridge.git
 2. Run the program:
   - go run main.go
  
